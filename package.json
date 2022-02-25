@@ -1,0 +1,37 @@
+{
+  "name": "nodebb-plugin-s3-uploads-digitalocean",
+  "version": "0.1.0",
+  "description": "Plugin for NodeBB to upload files to Digital Ocean Spaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhivkoangelov/nodebb-plugin-s3-uploads-digitalocean.git"
+  },
+  "keywords": [
+    "nodebb",
+    "s3",
+    "aws",
+    "digitalocean",
+    "plugin",
+    "uploads"
+  ],
+  "author": "Zhivko Angelov",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhivkoangelov/nodebb-plugin-s3-uploads-digitalocean/issues"
+  },
+  "nbbpm": {
+    "compatibility": "^1.18.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.992.0",
+    "uuid": "~8.3.2",
+    "mime": "~2.5.2",
+    "request": "~2.69.0",
+    "gm": "~1.23.1"
+  }
+}
