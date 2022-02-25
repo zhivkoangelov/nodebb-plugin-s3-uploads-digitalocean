@@ -122,8 +122,8 @@ function renderAdmin(req, res) {
 		forumPath: forumPath,
 		region: settings.region,
 		endpoint: settings.endpoint,
-		accessKeyId: settings.accessKeyId || "<hidden>",
-		secretAccessKey: settings.secretAccessKey || "<hidden>",
+		accessKeyId: false || "[hidden]",
+		secretAccessKey: false || "[hidden]",
 		csrf: token
 	};
 
