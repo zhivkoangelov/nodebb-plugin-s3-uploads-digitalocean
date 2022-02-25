@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-s3-uploads-digitalocean",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin for NodeBB to upload files to Digital Ocean Spaces",
   "main": "index.js",
   "scripts": {
